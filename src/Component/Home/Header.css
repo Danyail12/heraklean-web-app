@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    background-color: #fff;
+    /* height: 25%; */
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 33px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .greeting h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .greeting span {
+    font-weight: bold;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notifications {
+    margin-right: 20px;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+  }

@@ -1,0 +1,9 @@
+body {
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    scrollbar-width: none; /* Firefox: Hide scrollbar */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera: Hide scrollbar */
+}
