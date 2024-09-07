@@ -6,8 +6,10 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-router-dom'], // Ensure you only have one `external` key
-    },
-    outDir: 'dist', // Moved `outDir` outside `rollupOptions`
-  },
+      external: ['module-to-externalize','@mui/icons-material'],
+      build: {
+        outDir: 'dist',
+      },
+    }
+  }
 })
