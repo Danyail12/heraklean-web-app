@@ -6,11 +6,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['module-to-externalize'],
-      external: ['react-router-dom'],
-      build: {
-        outDir: 'dist',
-      },
-    }
-  }
+      external: ['react-router-dom'], // Ensure you only have one `external` key
+    },
+    outDir: 'dist', // Moved `outDir` outside `rollupOptions`
+  },
 })
