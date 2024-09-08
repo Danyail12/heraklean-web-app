@@ -179,7 +179,7 @@ const ClientProfile = () => {
           <div className="card">
             <div className="card-body ">
               <img src="pro.png" alt="" className="float-start mx-3" />
-              <h5 className="card-title">William Jones </h5>
+              <h5 className="card-title mt-3">William Jones </h5>
               <p className="card-text mt-2">New York, USA</p>
             </div>
           </div>
@@ -188,8 +188,8 @@ const ClientProfile = () => {
           <div className="card">
           <div className="card-body">
               <img src="anothet.png" alt="" className="float-start mx-3" />
-              <h5 className="card-title">William Jones </h5>
-              <p className="card-text">New York, USA</p>
+              <h5 className="card-title mt-3">William Jones </h5>
+              <p className="card-text mt-2">New York, USA</p>
             </div>
           </div>
         </div>
@@ -197,8 +197,8 @@ const ClientProfile = () => {
           <div className="card">
           <div className="card-body">
               <img src="pro.png" alt="" className="float-start mx-3" />
-              <h5 className="card-title">William Jones </h5>
-              <p className="card-text">New York, USA</p>
+              <h5 className="card-title mt-3 ">William Jones </h5>
+              <p className="card-text mt-2">New York, USA</p>
             </div>
           </div>
         </div>
