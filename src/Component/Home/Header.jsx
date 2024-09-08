@@ -5,10 +5,10 @@ import { HiBellAlert } from "react-icons/hi2";
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className="header bg-light mt-2">
       <div className="header-content">
         <div>
-          <img src="image 45.png" alt="" className='w-75 h-50' />
+          <img src="image 45.png" alt="" className='w-50 h-25' />
         </div>
         <div className="greeting">
           {/* <h1>Good Morning, <span>Leslie Alexander</span></h1> */}

@@ -35,9 +35,11 @@ const ClientProfile = () => {
         </div>
       </div>
 
-      <div className="row mt-2 d-flex justify-content-between">
-        <p className='fw-bold fs-5 mb-3 mt-3'>Upcoming Schedules</p>
-        <div className="col-lg-5">
+      <div className="container">
+        <div className="row mt-5 d-flex justify-content-around">
+            <h3 className='fw-bold fs-5' >Up Comming Meetings</h3>
+
+            <div className="col-lg-5 mt-2 d-flex align-items-center">
           <div className="card">
             <div className="card-body">
                 <div className='d-flex justify-content-around'>
@@ -45,7 +47,7 @@ const ClientProfile = () => {
                 <div className="row">
                   <div className="col">
 
-              <p className="card-title fw-bold">Kathryn Murphy
+              <p className="card-title fw-bold mt-3">Kathryn Murphy
 
               </p>
               <p className="card-text fw-light mt-2 ">06/09/24 | 01:00 PM</p>
@@ -59,8 +61,10 @@ const ClientProfile = () => {
                 </div>
 
                 <div className="row">
-                  <div className="col">
-                  <MdKeyboardArrowRight className=' ' size={34} />
+                  <div className="col mt-4">
+                    <Link to='/singleClient'>
+                  <MdKeyboardArrowRight className=' ' size={20} />
+                    </Link>
 
                   </div>
                 </div>
@@ -68,7 +72,7 @@ const ClientProfile = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-5">
+        <div className="col-lg-5 mt-2 d-flex align-items-center">
           <div className="card">
             <div className="card-body">
                 <div className='d-flex justify-content-around'>
@@ -76,7 +80,7 @@ const ClientProfile = () => {
                 <div className="row">
                   <div className="col">
 
-              <p className="card-title fw-bold ">Kathryn Murphy
+              <p className="card-title fw-bold mt-3 ">Kathryn Murphy
 
               </p>
               <p className="card-text fw-light mt-2 ">06/09/24 | 01:00 PM</p>
@@ -90,8 +94,8 @@ const ClientProfile = () => {
                 </div>
 
                 <div className="row">
-                  <div className="col">
-                  <MdKeyboardArrowRight className=' ' size={34} />
+                  <div className="col mt-4">
+                  <MdKeyboardArrowRight className=' ' size={20} />
 
                   </div>
                 </div>
@@ -99,7 +103,7 @@ const ClientProfile = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-5 mt-2">
+        <div className="col-lg-5 mt-2 d-flex align-items-center">
           <div className="card">
             <div className="card-body">
                 <div className='d-flex justify-content-around'>
@@ -107,7 +111,7 @@ const ClientProfile = () => {
                 <div className="row">
                   <div className="col">
 
-              <p className="card-title fw-bold ">Kathryn Murphy
+              <p className="card-title fw-bold mt-3 ">Kathryn Murphy
 
               </p>
               <p className="card-text fw-light mt-2 ">06/09/24 | 01:00 PM</p>
@@ -121,8 +125,8 @@ const ClientProfile = () => {
                 </div>
 
                 <div className="row">
-                  <div className="col">
-                  <MdKeyboardArrowRight className=' ' size={34} />
+                  <div className="col mt-4">
+                  <MdKeyboardArrowRight className=' ' size={20} />
 
                   </div>
                 </div>
@@ -130,7 +134,7 @@ const ClientProfile = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-5 mt-2">
+        <div className="col-lg-5 mt-2 d-flex align-items-center">
           <div className="card">
             <div className="card-body">
                 <div className='d-flex justify-content-around'>
@@ -138,7 +142,7 @@ const ClientProfile = () => {
                 <div className="row">
                   <div className="col">
 
-              <p className="card-title fw-bold ">Kathryn Murphy
+              <p className="card-title fw-bold mt-3 ">Kathryn Murphy
 
               </p>
               <p className="card-text fw-light mt-2 ">06/09/24 | 01:00 PM</p>
@@ -152,8 +156,8 @@ const ClientProfile = () => {
                 </div>
 
                 <div className="row">
-                  <div className="col">
-                  <MdKeyboardArrowRight className=' ' size={34} />
+                  <div className="col mt-4">
+                  <MdKeyboardArrowRight className=' ' size={20} />
 
                   </div>
                 </div>
@@ -161,6 +165,8 @@ const ClientProfile = () => {
             </div>
           </div>
         </div>
+       
+       </div>
       </div>
 
 

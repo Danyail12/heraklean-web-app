@@ -21,17 +21,17 @@ const Sidebar = () => {
 
   return (
     
-    <nav className="sidebar d-flex flex-column justify-content-between h-100 py-4">
+    <nav className="sidebar d-flex flex-column justify-content-between h-100 my-2">
       <div>
         {navItems.map((item, index) => (
           <Link
             key={index}
             to={item.path}
-            className={`nav-item d-flex flex-column align-items-center py-3 text-decoration-none ${
+            className={`nav-item d-flex flex-column align-items-center my-3 text-decoration-none ${
               location.pathname === item.path ? 'active' : ''
             }`}
           >
-            <item.icon size={24} className={location.pathname === item.path ? 'text-primary' : 'text-muted'} />
+            <item.icon size={14} className={location.pathname === item.path ? 'text-primary' : 'text-muted'} />
             <span className={`mt-1 small ${location.pathname === item.path ? 'text-primary' : 'text-muted'}`}>
               {item.name}
             </span>
@@ -40,7 +40,7 @@ const Sidebar = () => {
       </div>
       <div className="text-center">
         <button className="btn btn-link text-decoration-none" onClick={() => {/* Add sign out logic here */}}>
-          <FaSignOutAlt size={24} className="text-muted" />
+          <FaSignOutAlt size={14} className="text-muted" />
           <span className="d-block mt-1 small text-muted">Sign Out</span>
         </button>
       </div>
