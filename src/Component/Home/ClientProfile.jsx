@@ -36,7 +36,7 @@ const ClientProfile = () => {
       </div>
 
       <div className="container">
-        <div className="row mt-5 d-flex justify-content-around">
+        <div className="row mt-5 d-flex justify-content-between">
             <h3 className='fw-bold fs-5' >Up Comming Meetings</h3>
 
             <div className="col-lg-5 mt-2 d-flex align-items-center">
